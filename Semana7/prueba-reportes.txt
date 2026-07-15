@@ -1,0 +1,3 @@
+Al enviar un reporte mediante una petición POST, el servidor lo almacena en el arreglo llamado reportes y devuelve un mensaje indicando que fue registrado correctamente.
+
+Al realizar una petición GET a la ruta /reportes, el servidor muestra la lista de todos los reportes registrados mientras el servidor permanezca encendido. Si el servidor se reinicia, la lista vuelve a quedar vacía porque los datos se almacenan únicamente en memoria.
