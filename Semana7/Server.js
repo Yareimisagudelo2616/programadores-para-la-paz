@@ -26,6 +26,9 @@ app.post('/reportes', (req, res) => {
 
 });
 
-app.listen(3000, () => {
+app.listen(3000, () => { 
   console.log('Servidor ejecutándose en puerto 3000');
 });
+app.get('/reportes', ...)
+app.post('/reportes', ...)
+app.use(express.json());
